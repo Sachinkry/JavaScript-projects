@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Bellefair&family=Merriweather:ital,wght@1,300&family=Montserrat&family=Poppins:wght@200&family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}

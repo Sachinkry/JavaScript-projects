@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Bellefair&family=Merriweather:ital,wght@1,300&family=Montserrat&family=Poppins:wght@400&family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(timer3.jpg); 
+    /* make this dynamic^^   */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* color: white; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: regular;
+}
+
+.countdown-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.big-text {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-el{
+   margin: 0 2rem;
+   text-align: center;
+}
+.countdown-el span {
+    font-size: .8rem;
+}
+
+
+
