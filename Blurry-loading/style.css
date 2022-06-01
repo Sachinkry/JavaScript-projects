@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Bellefair&family=Merriweather:ital,wght@1,300&family=Montserrat&family=Poppins:wght@200&family=Sacramento&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    
+    /* color: #fff; */
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.bg{
+    z-index: -1;
+    background-image: url('timer.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover ;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    filter: blur(10px);
+
+}
+
+.loading-text {
+    background-color: tomato;
+    /* width: 30px; */
+    padding: 4px 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
